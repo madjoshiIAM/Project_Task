@@ -137,11 +137,17 @@ public class MysqlCon
 		System.out.println("MySql CPU load :::"+mysql.getCPULoadByProcessName("mysqld"));
 		System.out.println("Chrome CPU load :::"+mysql.getCPULoadByProcessName("Chrome"));
 		*/
+				System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++++");
+		System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++++");
+		System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++++");
+
+		System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++++");
 		System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++++");
 		System.out.println("Website Active :::"+mysql.isWebsiteActive("Chrome"));
 		System.out.println("Website Active :::"+mysql.isWebsiteActive("http://www.test.org/"));
 		System.out.println("Website Active :::"+mysql.isWebsiteActive("http://www.google.com/"));
 		System.out.println("Website Active :::"+mysql.isWebsiteActive("http://www.google1.com/"));
+		System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++++");
 		System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++++");
 		mysql.databaseMonitoring();
 	}			
