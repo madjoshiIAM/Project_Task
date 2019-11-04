@@ -1,0 +1,13 @@
+SELECT table_schema "database name",sum( data_length + index_length ) / 1024 / 1024 "database size in MB",sum( data_free )/ 1024 / 1024 "free reclaimable space in MB" FROM information_schema.TABLES where table_schema='apac_bot_instance' GROUP BY table_schema; 
+
+
+SELECT sum( data_length + index_length ) / 1024 / 1024 "Database Size in MB" FROM information_schema.TABLES where table_schema='apac_bot_instance'; 
+
+
+SELECT sum( data_free )/ 1024 / 1024 "free reclaimable space in MB" FROM information_schema.TABLES where table_schema='apac_bot_instance';
+
+adding new query
+
+adding new query
+
+adding new query
